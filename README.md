@@ -34,4 +34,7 @@ python3 manage.py migrate
 
 ## connect to sqllite 
 python3 manage.py dbshell
+
+## print raw sql from migration 
+python3 manage.py sqlmigrate meetings 0001
 ```
