@@ -1,5 +1,7 @@
 # django-bootstrap
 
+Disclaimer : This is the resulting code from a pluralsight course
+
 ## Install django
 ```bash
 python -m pip install django
@@ -18,3 +20,9 @@ cd my-project-name
 # Dev server 
 python manage.py runserver
 ```
+
+## Add "app" to django 
+``bash
+python 3 manage.py startapp website
+``
+
