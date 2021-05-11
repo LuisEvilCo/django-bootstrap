@@ -23,6 +23,15 @@ python manage.py runserver
 
 ## Add "app" to django 
 ``bash
-python 3 manage.py startapp website
+python3 manage.py startapp website
 ``
 
+## Migrations
+```bash
+python3 manage.py shomigrations
+# initial migrations stored in db.sqlite3
+python3 manage.py migrate 
+
+## connect to sqllite 
+python3 manage.py dbshell
+```
